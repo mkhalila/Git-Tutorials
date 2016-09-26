@@ -58,7 +58,7 @@ Checkout a branch:
 	git checkout <branch-name>
 
 After commit, push entire new branch to remote: (First time after creating branch)
-	git push -u <branch-name>
+	git push -u origin <branch-name>
 	git branch -a
 
 Merge a branch with master:
