@@ -72,3 +72,9 @@ Delete a branch (e.g. After merging it with master):
 	git branch -d <branch-name> (deletes locally)
 	git branch -a 
 	git push origin --delete <branch-name> (deletes remote branch)
+	
+Update a fork with upstream changes
+	git remote add upstream git@github.ibm.com:development-enablement/SADashboards.git
+	git fetch upstream
+	git merge upstream/master
+	git push origin
