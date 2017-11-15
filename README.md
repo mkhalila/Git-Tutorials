@@ -97,3 +97,6 @@
     Change commit name if necessary
     Save and Exit editor
   
+#### Rename a current local branch (that hasn't been pushed yet)
+    git branch -m new-branch-name
+    
